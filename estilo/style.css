@@ -1,0 +1,104 @@
+body{
+    background-color: #f3ece2;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+ header {
+     background-color: #C5BAAF;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    color: #424B54;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    background-color: #C5BAAF;
+    padding: 15px;
+    text-align: center;
+}
+
+a:link {
+    color:  #424B54;
+}
+
+
+a:visited {
+    color: rgb(34, 34, 34);
+}
+
+ 
+
+ 
+ nav ul {
+     box-sizing: border-box;
+     padding: 24px;
+     list-style-type: none;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+
+
+nav ul li a {
+        text-decoration: none;
+        color: red;
+
+}
+
+nav ul li a:hover {
+        cursor: pointer;
+        color: white;
+        border-bottom: 2px solid white;
+
+}
+
+
+img {
+    width: 400px;
+    height: 300px;
+    padding: 24px;
+}
+
+.video {
+    display: flex;
+     justify-content: center;
+     padding: 24px;
+
+}
+
+article {
+    display: block;
+    background-color: #e7bfcb;
+    float: left;
+    margin: 24px;
+}
+
+.texto {
+    display: table-cell;
+    float: right;
+    width: 775px;
+}
+
+.menu {
+
+    padding: 20px;
+    background-color:#C5BAAF;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .menu:hover {
+    animation-name: titulo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes titulo {
+    0% { background-color:#C5BAAF; color: #e7bfcb }
+    25% { background-color: #C5BAAF; color:#424B54 }
+    50% { background-color:#C5BAAF; color: #e7bfcb }
+    75% { background-color: #C5BAAF; color:#424B54 }
+    100% { background-color: #C5BAAF; color: #e7bfcb }
+    }
